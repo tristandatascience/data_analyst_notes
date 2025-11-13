@@ -1,0 +1,5 @@
+{
+  "name": "Data Viz Revision Guide",
+  "description": "An interactive and printable web application to revise key concepts in data analysis and visualization for an interview. It covers data types, descriptive statistics, correlations, hypothesis testing, and choosing the right graph.",
+  "requestFramePermissions": []
+}
