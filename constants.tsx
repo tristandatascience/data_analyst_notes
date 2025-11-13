@@ -342,7 +342,7 @@ export const HypothesisContent = () => (
                 </li>
                 <li>
                     <strong className="text-slate-700">Théorème Central Limite (TCL) :</strong>
-                    <p className="text-sm text-slate-500">Pour un grand échantillon (souvent <code className="text-sm">n > 30</code>), la distribution des moyennes d'échantillons tend vers une loi normale, <strong>même si la distribution de la population d'origine n'est pas normale</strong>. C'est pourquoi les tests paramétriques (comme le T-test) sont considérés comme robustes pour de grands échantillons.</p>
+                    <p className="text-sm text-slate-500">Pour un grand échantillon (souvent <code className="text-sm">n &gt 30</code>), la distribution des moyennes d'échantillons tend vers une loi normale, <strong>même si la distribution de la population d'origine n'est pas normale</strong>. C'est pourquoi les tests paramétriques (comme le T-test) sont considérés comme robustes pour de grands échantillons.</p>
                 </li>
             </ul>
         </Card>
@@ -383,7 +383,7 @@ export const HypothesisContent = () => (
                         <WarningIcon/> <strong>Attention à la taille de l'échantillon !</strong>
                         <ul className="list-disc list-inside mt-1">
                             <li><strong>Petit échantillon (n &lt; 30) :</strong> Le test manque de puissance. Il peut ne pas détecter une non-normalité réelle.</li>
-                            <li><strong>Grand échantillon (n > 1000) :</strong> Le test devient trop sensible. Il peut rejeter H0 pour des écarts à la normalité minuscules et sans importance pratique.</li>
+                            <li><strong>Grand échantillon (n &gt 1000) :</strong> Le test devient trop sensible. Il peut rejeter H0 pour des écarts à la normalité minuscules et sans importance pratique.</li>
                         </ul>
                         <p className="mt-2 font-semibold">Conseil : Toujours coupler ce test avec une inspection visuelle (QQ-Plot, histogramme).</p>
                     </div>
@@ -660,7 +660,7 @@ export const OtherConceptsContent = () => (
         <p className="mt-2">Elle ne prédit pas directement la classe, mais la <strong>probabilité</strong> que l'observation appartienne à une classe.</p>
         <p className="mt-2">Le cœur du modèle est la <strong>fonction sigmoïde (ou logistique)</strong> qui transforme un score linéaire en une probabilité entre 0 et 1 :</p>
         <p className="text-center text-lg mt-2"><code className="text-sky-600 font-mono bg-sky-50 p-2 rounded">p = 1 / (1 + e⁻ᶻ)</code></p>
-        <p className="text-sm text-slate-500 mt-1">où <code className="text-sm">z = aX + b</code>. On applique ensuite un seuil (ex: si p > 0.5, alors classe = 1) pour obtenir la prédiction finale.</p>
+        <p className="text-sm text-slate-500 mt-1">où <code className="text-sm">z = aX + b</code>. On applique ensuite un seuil (ex: si p &gt 0.5, alors classe = 1) pour obtenir la prédiction finale.</p>
       </div>
     </Card>
      <Card title="Échantillonnage (Sampling)">
