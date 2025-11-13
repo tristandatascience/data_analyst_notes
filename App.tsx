@@ -66,7 +66,7 @@ const App: React.FC = () => {
 
       </main>
       <footer className="text-center p-8 text-slate-500 border-t mt-12 print:hidden">
-        <p>Bonne chance pour votre entretien !</p>
+        <p></p>
       </footer>
     </div>
   );
