@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Section from './Section.tsx';
+import { Section } from './Section.tsx';
 import { Card } from './Card.tsx';
 import { DataCleaningContent, DataTypeContent, DescriptiveStatsContent, NormalityContent, OtherDistributionsContent, CorrelationContent, HypothesisContent, GraphChoiceContent, OtherConceptsContent, EDAContent } from './constants.tsx';
 import { PrintButton } from './PrintButton.tsx';
