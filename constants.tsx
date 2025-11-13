@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card } from './Card';
-import { CategoricalIcon, NumericIcon, CentralTendencyIcon, DispersionIcon, LightbulbIcon, WarningIcon, CleaningIcon, BrainIcon, BellCurveIcon, DistributionIcon } from './components/Icons';
+import { CategoricalIcon, NumericIcon, CentralTendencyIcon, DispersionIcon, LightbulbIcon, WarningIcon, CleaningIcon, BrainIcon, BellCurveIcon, DistributionIcon } from './Icons';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, LineChart, Line, ScatterChart, Scatter, ReferenceLine, AreaChart, Area } from 'recharts';
 
 // --- DATA FOR CHARTS ---
