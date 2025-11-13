@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { Section } from './components/Section';
-import { Card } from './components/Card';
-import { DataCleaningContent, DataTypeContent, DescriptiveStatsContent, NormalityContent, OtherDistributionsContent, CorrelationContent, HypothesisContent, GraphChoiceContent, OtherConceptsContent, EDAContent } from './constants';
-import { PrintButton } from './components/PrintButton';
-import { Header } from './components/Header';
+import Section from './components/Section.tsx';
+import { Card } from './components/Card.tsx';
+import { DataCleaningContent, DataTypeContent, DescriptiveStatsContent, NormalityContent, OtherDistributionsContent, CorrelationContent, HypothesisContent, GraphChoiceContent, OtherConceptsContent, EDAContent } from './constants.tsx';
+import { PrintButton } from './components/PrintButton.tsx';
+import { Header } from './components/Header.tsx';
 
 const App: React.FC = () => {
   return (
