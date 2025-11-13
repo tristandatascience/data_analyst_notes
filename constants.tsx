@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Card } from './components/Card';
+import { Card } from './Card';
 import { CategoricalIcon, NumericIcon, CentralTendencyIcon, DispersionIcon, LightbulbIcon, WarningIcon, CleaningIcon, BrainIcon, BellCurveIcon, DistributionIcon } from './components/Icons';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, LineChart, Line, ScatterChart, Scatter, ReferenceLine, AreaChart, Area } from 'recharts';
 
